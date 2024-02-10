@@ -1,0 +1,110 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #092b5a;
+    position: relative;
+    height: 120px;
+    z-index: 1;
+}
+
+#menu {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    height: 8%;
+    transform: translateX(-10%);
+}
+
+#Volkquiz {
+    position: absolute;
+    top: 8%;
+    left: 12%;
+    width: 15%;
+    height: 100%;
+}
+
+#camisa {
+    position: absolute;
+    top: 2%;
+    left: 4%;
+    width: 10%;
+    height: 100%;
+}
+
+#engrenagem-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    height: 30%;
+    overflow: hidden;
+}
+
+#engrenagem {
+    position: absolute;
+    bottom: -30%;
+    right: -35%;
+    height: 120%;
+    width: 110%;
+}
+
+#logo {
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    height: 10%;
+    width: 95%;
+    transform: translateX(-1%);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard {
+    background-color: #5a85bf;
+    width: 5%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    left: 0%;
+}
+
+.content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question-container {
+    background-color: #88919d;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.answers button {
+    background-color: #092b5a;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.answers button:hover {
+    background-color: #0f3a7a;
+}
