@@ -29,10 +29,10 @@ body, html {
 
 #camisa {
     position: absolute;
-    top: 2%;
-    left: 4%;
-    width: 10%;
-    height: 100%;
+    top: 1%;
+    left: 5%;
+    width: 8%;
+    height: 120%;
 }
 
 #engrenagem-container {
