@@ -27,7 +27,7 @@ export default [
       ],
     },
     {
-      question: "Em português, o que significa Wolkswagen?",
+      question: "Em português, o que significa Volkswagen?",
       answers: [
         { option: "Veículo combinado", correct: false },
         { option: "Carro esportivo", correct: false },
