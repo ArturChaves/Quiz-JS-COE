@@ -23,28 +23,36 @@ document.addEventListener('DOMContentLoaded', () => {
             const question = shuffledQuestions[currentQuestionIndex];
             questionContainer.textContent = question.question;
             answersContainer.innerHTML = '';
+            questionContainer.style.color = '#FFFFFF';
+            spnQtd.style.color = '#FFFFFF';
 
             question.answers.forEach(answer => {
                 const option = document.createElement('button');
                 option.textContent = answer.option;
+                option.style.fontSize = "1rem"
+                option.style.fontFamily = "Roboto Condensed"             
+
                 option.addEventListener('click', () => {
                     if (answer.correct) {
                         correctAnswers++;
                     }
                     currentQuestionIndex++;
-                    showQuestion();
+                    showQuestion(); 
+                   
                 });
                 answersContainer.appendChild(option);
             });
         } else {
             spnQtd.textContent = `Você acertou ${correctAnswers} de ${shuffledQuestions.length} perguntas.`;
             answersContainer.innerHTML = '';
+            questionContainer.innerHTML = " "
             restartButton.addEventListener('click', () => {
                 // Reiniciar o quiz
                 correctAnswers = 0;
                 currentQuestionIndex = 0;
                 shuffledQuestions = shuffleArray(questions.slice());
                 showQuestion(); // Exibe a primeira pergunta
+                
                 spnQtd.textContent = ''; // Limpa o texto de acertos
             });
             answersContainer.appendChild(restartButton);

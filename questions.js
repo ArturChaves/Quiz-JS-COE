@@ -1,34 +1,49 @@
 export default [
     {
-      question: "Quanto é 1 + 2?",
+      question: "Qual desses é um SUVW?",
       answers: [
-        { option: "3", correct: true },
-        { option: "2", correct: false },
-        { option: "4", correct: false },
+        { option: "Jetta", correct: false },
+        { option: "Gol", correct: false },
+        { option: "Tiguan", correct: true },
+        { option: "Passat", correct: false },
       ],
     },
     {
-      question: "Quanto é 5 x 2?",
+      question: "Qual desses modelos possui tração traseira?",
       answers: [
-        { option: "9", correct: false },
-        { option: "10", correct: true },
-        { option: "11", correct: false },
+        { option: "Bora", correct: false },
+        { option: "Fusca Itamar", correct: true },
+        { option: "Polo track", correct: false },
+        { option: "Golf gti", correct: false },
       ],
     },
     {
-      question: "Quanto é 10 x 8?",
+      question: "Qual desses é uma pick-up VW?",
       answers: [
-        { option: "800", correct: false },
-        { option: "90", correct: false },
-        { option: "80", correct: true },
+        { option: "Taus", correct: false },
+        { option: "Amarok", correct: true },
+        { option: "Polo", correct: false },
+        { option: "Jetta", correct: false },
       ],
     },
     {
-      question: "Quanto é 7 x 7?",
+      question: "Em português, o que significa Wolkswagen?",
       answers: [
-        { option: "70", correct: false },
-        { option: "56", correct: false },
-        { option: "49", correct: true },
+        { option: "Veículo combinado", correct: false },
+        { option: "Carro esportivo", correct: false },
+        { option: "Carro envenenado", correct: false },
+        { option: "Carro do povo", correct: true },
+        { option: "Veículo multi-uso", correct: false },
+      ],
+    },
+    {
+      question: "Qual o veículo da Volkswagwen que em 2004 completou 30 anos que está no mercado?",
+      answers: [
+        { option: "Santana", correct: false },
+        { option: "Gol", correct: false },
+        { option: "Passat", correct: true },
+        { option: "Jetta", correct: true },
+        { option: "Bora", correct: false },
       ],
     },
   ];
