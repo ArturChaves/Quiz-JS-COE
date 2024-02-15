@@ -20,7 +20,7 @@ export default [
     {
       question: "Qual desses é uma pick-up VW?",
       answers: [
-        { option: "Taus", correct: false },
+        { option: "Taos", correct: false },
         { option: "Amarok", correct: true },
         { option: "Polo", correct: false },
         { option: "Jetta", correct: false },
